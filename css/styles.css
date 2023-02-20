@@ -2,6 +2,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 #calculator {
@@ -38,4 +40,15 @@ button {
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
+}
+
+/*HEADER*/
+header {
+  font-family: "Anton", sans-serif;
+  background-color: purple;
+  text-shadow: rgb(243, 242, 237) 1px 0 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
 }
