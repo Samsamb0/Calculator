@@ -2,8 +2,11 @@ html,
 body {
   padding: 0;
   margin: 0;
-  width: 100%;
   height: 100%;
+  width: 100%;
+  font-family: "Anton", sans-serif;
+  background-color: antiquewhite;
+  overflow: hidden;
 }
 
 body {
@@ -65,9 +68,22 @@ header {
 main {
   background-color: antiquewhite;
   width: 100%;
-  height: 80%;
   display: flex;
   justify-content: center;
+  height: 70%;
+}
+
+/*footer*/
+footer {
+  background-color: antiquewhite;
+  font-family: "Anton", sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+}
+footer p {
+  text-shadow: rgb(64 32 222 / 71%) 1px 0 10px;
 }
 
 /*CALCULATOR*/
