@@ -49,4 +49,12 @@ function load() {
     previous.innerText = "";
     current.innerText = previousValue;
   });
+  //clear
+  clear.addEventListener("click", function () {
+    previousValue = "";
+    currentValue = "";
+    operand = "";
+    previous.innerText = previousValue;
+    current.innerText = currentValue;
+  });
 }
