@@ -87,7 +87,7 @@ footer p {
 }
 
 /*CALCULATOR*/
-#number,
+.number,
 #clear {
   background-color: rgb(83, 76, 76);
   color: antiquewhite;
@@ -95,8 +95,8 @@ footer p {
   border-radius: 10px;
 }
 
-#operator,
-#equal {
+.operator,
+.equal {
   background-color: blanchedalmond;
   color: black;
   font-size: 1em;
